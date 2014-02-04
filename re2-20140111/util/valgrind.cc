@@ -2,8 +2,8 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-#include "util/util.h"
-#include "util/valgrind.h"
+#include "thirdparty/re2-20140111/util/util.h"
+#include "thirdparty/re2-20140111/util/valgrind.h"
 
 namespace re2 {
 

@@ -2,11 +2,11 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-#include "util/util.h"
-#include "util/flags.h"
-#include "re2/prefilter.h"
-#include "re2/prefilter_tree.h"
-#include "re2/re2.h"
+#include "thirdparty/re2-20140111/util/util.h"
+#include "thirdparty/re2-20140111/util/flags.h"
+#include "thirdparty/re2-20140111/re2/prefilter.h"
+#include "thirdparty/re2-20140111/re2/prefilter_tree.h"
+#include "thirdparty/re2-20140111/re2/re2.h"
 
 DEFINE_int32(filtered_re2_min_atom_len,
              3,

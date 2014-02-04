@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <sys/resource.h>
-#include "util/test.h"
+#include "thirdparty/re2-20140111/util/test.h"
 
 DEFINE_string(test_tmpdir, "/var/tmp", "temp directory");
 

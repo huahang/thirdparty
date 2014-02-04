@@ -9,8 +9,8 @@
 #ifndef RE2_PROG_H__
 #define RE2_PROG_H__
 
-#include "util/util.h"
-#include "re2/re2.h"
+#include "thirdparty/re2-20140111/util/util.h"
+#include "thirdparty/re2-20140111/re2/re2.h"
 
 namespace re2 {
 

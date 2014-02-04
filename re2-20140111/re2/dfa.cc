@@ -21,11 +21,11 @@
 //
 // See http://swtch.com/~rsc/regexp/ for a very bare-bones equivalent.
 
-#include "re2/prog.h"
-#include "re2/stringpiece.h"
-#include "util/atomicops.h"
-#include "util/flags.h"
-#include "util/sparse_set.h"
+#include "thirdparty/re2-20140111/re2/prog.h"
+#include "thirdparty/re2-20140111/re2/stringpiece.h"
+#include "thirdparty/re2-20140111/util/atomicops.h"
+#include "thirdparty/re2-20140111/util/flags.h"
+#include "thirdparty/re2-20140111/util/sparse_set.h"
 
 DEFINE_bool(re2_dfa_bail_when_slow, true,
             "Whether the RE2 DFA should bail out early "

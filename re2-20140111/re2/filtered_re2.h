@@ -22,7 +22,7 @@
 #define RE2_FILTERED_RE2_H_
 
 #include <vector>
-#include "re2/re2.h"
+#include "thirdparty/re2-20140111/re2/re2.h"
 
 namespace re2 {
 using std::vector;

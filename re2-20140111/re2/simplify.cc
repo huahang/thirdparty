@@ -6,9 +6,9 @@
 // to use simple extended regular expression features.
 // Also sort and simplify character classes.
 
-#include "util/util.h"
-#include "re2/regexp.h"
-#include "re2/walker-inl.h"
+#include "thirdparty/re2-20140111/util/util.h"
+#include "thirdparty/re2-20140111/re2/regexp.h"
+#include "thirdparty/re2-20140111/re2/walker-inl.h"
 
 namespace re2 {
 

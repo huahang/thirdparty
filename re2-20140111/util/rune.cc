@@ -13,7 +13,7 @@
  */
 #include <stdarg.h>
 #include <string.h>
-#include "util/utf.h"
+#include "thirdparty/re2-20140111/util/utf.h"
 
 namespace re2 {
 

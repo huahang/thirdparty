@@ -182,8 +182,8 @@
 #include <stdint.h>
 #include <map>
 #include <string>
-#include "re2/stringpiece.h"
-#include "re2/variadic_function.h"
+#include "thirdparty/re2-20140111/re2/stringpiece.h"
+#include "thirdparty/re2-20140111/re2/variadic_function.h"
 
 #ifndef RE2_HAVE_LONGLONG
 #define RE2_HAVE_LONGLONG 1

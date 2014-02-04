@@ -16,11 +16,11 @@
 // and recognizes the Perl escape sequences \d, \s, \w, \D, \S, and \W.
 // See regexp.h for rationale.
 
-#include "util/util.h"
-#include "re2/regexp.h"
-#include "re2/stringpiece.h"
-#include "re2/unicode_casefold.h"
-#include "re2/unicode_groups.h"
+#include "thirdparty/re2-20140111/util/util.h"
+#include "thirdparty/re2-20140111/re2/regexp.h"
+#include "thirdparty/re2-20140111/re2/stringpiece.h"
+#include "thirdparty/re2-20140111/re2/unicode_casefold.h"
+#include "thirdparty/re2-20140111/re2/unicode_groups.h"
 
 namespace re2 {
 

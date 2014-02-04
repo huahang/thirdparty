@@ -52,11 +52,11 @@
 
 #include <string.h>
 #include <map>
-#include "util/util.h"
-#include "util/arena.h"
-#include "util/sparse_set.h"
-#include "re2/prog.h"
-#include "re2/stringpiece.h"
+#include "thirdparty/re2-20140111/util/util.h"
+#include "thirdparty/re2-20140111/util/arena.h"
+#include "thirdparty/re2-20140111/util/sparse_set.h"
+#include "thirdparty/re2-20140111/re2/prog.h"
+#include "thirdparty/re2-20140111/re2/stringpiece.h"
 
 namespace re2 {
 

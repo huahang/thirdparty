@@ -4,8 +4,8 @@
 
 #include <pthread.h>
 
-#include "util/util.h"
-#include "util/thread.h"
+#include "thirdparty/re2-20140111/util/util.h"
+#include "thirdparty/re2-20140111/util/thread.h"
 
 Thread::Thread() {
   pid_ = 0;

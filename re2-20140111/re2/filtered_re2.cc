@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 #include <string>
-#include "util/util.h"
-#include "re2/filtered_re2.h"
-#include "re2/prefilter.h"
-#include "re2/prefilter_tree.h"
+#include "thirdparty/re2-20140111/util/util.h"
+#include "thirdparty/re2-20140111/re2/filtered_re2.h"
+#include "thirdparty/re2-20140111/re2/prefilter.h"
+#include "thirdparty/re2-20140111/re2/prefilter_tree.h"
 
 namespace re2 {
 

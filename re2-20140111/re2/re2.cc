@@ -7,17 +7,17 @@
 // Originally the PCRE C++ wrapper, but adapted to use
 // the new automata-based regular expression engines.
 
-#include "re2/re2.h"
+#include "thirdparty/re2-20140111/re2/re2.h"
 
 #include <stdio.h>
 #include <string>
 #include <pthread.h>
 #include <errno.h>
-#include "util/atomicops.h"
-#include "util/util.h"
-#include "util/flags.h"
-#include "re2/prog.h"
-#include "re2/regexp.h"
+#include "thirdparty/re2-20140111/util/atomicops.h"
+#include "thirdparty/re2-20140111/util/util.h"
+#include "thirdparty/re2-20140111/util/flags.h"
+#include "thirdparty/re2-20140111/re2/prog.h"
+#include "thirdparty/re2-20140111/re2/regexp.h"
 
 DEFINE_bool(trace_re2, false, "trace RE2 execution");
 

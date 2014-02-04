@@ -4,7 +4,7 @@
 
 // Modified from Google perftools's tcmalloc_unittest.cc.
 
-#include "util/random.h"
+#include "thirdparty/re2-20140111/util/random.h"
 
 namespace re2 {
 

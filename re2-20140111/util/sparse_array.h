@@ -92,7 +92,7 @@
 #ifndef RE2_UTIL_SPARSE_ARRAY_H__
 #define RE2_UTIL_SPARSE_ARRAY_H__
 
-#include "util/util.h"
+#include "thirdparty/re2-20140111/util/util.h"
 
 namespace re2 {
 

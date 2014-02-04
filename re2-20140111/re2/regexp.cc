@@ -5,10 +5,10 @@
 // Regular expression representation.
 // Tested by parse_test.cc
 
-#include "util/util.h"
-#include "re2/regexp.h"
-#include "re2/stringpiece.h"
-#include "re2/walker-inl.h"
+#include "thirdparty/re2-20140111/util/util.h"
+#include "thirdparty/re2-20140111/re2/regexp.h"
+#include "thirdparty/re2-20140111/re2/stringpiece.h"
+#include "thirdparty/re2-20140111/re2/walker-inl.h"
 
 namespace re2 {
 
